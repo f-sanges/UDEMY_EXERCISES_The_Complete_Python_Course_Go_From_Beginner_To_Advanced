@@ -6,10 +6,20 @@ length = len(list1)
 
 print(list1[1:4])
 
-print(length)
+print("list1 length: " + str(length))       # length
+
+print("Index of the element 'quattro': " + str(list1.index('quattro')))   # index
+del list1[3]                # delete an element
+print("list1 after deletion of the third element: " + str(list1))
+
+list1.insert(3, 'quattro')
+print("list1 after insert of the element 'quattro' at the 3th position: " + str(list1))
 
 list2 = list1 * 2  # repetition
 print(list2)
+
+list3 = [x**2 for x in range(1, 11)]
+print(list3)
 
 # tuple
 
