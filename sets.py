@@ -20,4 +20,4 @@ print(a)    # the order is not important
 b = set()
 b.add(2)
 
-print("a is a superset of b: " + str(a.issuperset(b)))
+print("a is a superset of b: " , a.issuperset(b))

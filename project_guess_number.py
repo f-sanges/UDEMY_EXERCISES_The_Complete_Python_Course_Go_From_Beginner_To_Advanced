@@ -2,7 +2,7 @@
 import random
 
 number_to_guess = random.randint(1, 10)
-print("DEBUG: Number to guess: " + str(number_to_guess))
+print("DEBUG: Number to guess: " , number_to_guess)
 guess = 0
 
 while guess != number_to_guess:

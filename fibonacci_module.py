@@ -8,6 +8,7 @@ def fib(n):
         a, b = b, a + b
     print()
 
+
 # Another way
 def fib2(n):
     result = []

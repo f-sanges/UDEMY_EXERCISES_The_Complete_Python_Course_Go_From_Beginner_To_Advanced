@@ -6,14 +6,14 @@ length = len(list1)
 
 print(list1[1:4])
 
-print("list1 length: " + str(length))  # length
+print("list1 length: " , length)  # length
 
-print("Index of the element 'quattro': " + str(list1.index('quattro')))  # index
+print("Index of the element 'quattro': " ,list1.index('quattro'))  # index
 del list1[3]  # delete an element
-print("list1 after deletion of the third element: " + str(list1))
+print("list1 after deletion of the third element: " , list1)
 
 list1.insert(3, 'quattro')
-print("list1 after insert of the element 'quattro' at the 3th position: " + str(list1))
+print("list1 after insert of the element 'quattro' at the 3th position: " , list1)
 
 list2 = list1 * 2  # repetition
 print(list2)
@@ -27,7 +27,7 @@ a = [1, 2, 3, 4, 5]
 b = []
 for numbers in a:
     b.append(numbers)
-print("list b: " +str(b))
+print("list b: ", b)
 
 # ====================== tuple ======================
 

@@ -10,7 +10,7 @@ print("rfind di picture: " + str(c))
 
 # Find first index of this string after previous index
 b = value.find("picture", i + 1)
-print("Second occurrence of picture: " + str(b))
+print("Second occurrence of picture: ", b)
 
 # loop to find the index of every value in a string
 location = 0
@@ -19,24 +19,18 @@ while True:
 
     if location == -1:
         break
-    print("location: " + str(location))
-
+    print("location: ", location)
 
 # Other method to loop to find the index of every value in a string
 value2 = "cat picture is cat picture plus picture"
 locazione = len(value2)
-print("length of value2: " + str(locazione))
+print("length of value2: ", locazione)
 while True:
 
     locazione = value2.rfind("picture", 0, locazione)
     if locazione == -1:
         break
-    print("locazione: " + str(locazione))
-
-
-
-
-
+    print("locazione: ", locazione)
 
 # print(value.find("daog"))
 if value.find("dog") == -1:
